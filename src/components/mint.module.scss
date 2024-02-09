@@ -1,0 +1,61 @@
+.minter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 750px;
+    background-color: #b1e6ff;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.row-2 {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding:  10px;
+}
+
+.button{
+    width: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+    .minter-wrapper {
+        width: 100%; /* Use full width */
+        margin: 20px; /* Adjust margin */
+        padding: 10px; /* Add some padding */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+
+    .row, .row-2 {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 10px; /* Reduce gap */
+    }
+
+    .column {
+        width: 100%; /* Full width for columns */
+    }
+
+    .button {
+        width: 100%; /* Full width for buttons */
+    }
+}

@@ -1,0 +1,19 @@
+.button {
+    background-image: url('../../assets/png/button-bg.png');
+    background-size: contain; 
+    border: none; 
+    padding: 15px 30px; 
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    font-family: 'Coda Caption', sans-serif;
+    color: #ffffff; 
+    font-size: 20px;
+    margin: 0;
+  }
+  

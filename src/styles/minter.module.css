@@ -1,0 +1,241 @@
+.gamecontainer {
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+}
+.gameframe1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.gamebackground {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.gametitle {
+  top: -6px;
+  left: 309px;
+  width: 1229px;
+  height: 265px;
+  position: absolute;
+}
+.gamenavlink {
+  display: contents;
+}
+.gamehome {
+  top: 36px;
+  left: 58px;
+  width: 137px;
+  height: 130px;
+  position: absolute;
+  text-decoration: none;
+}
+.gameredfridge {
+  top: 205px;
+  left: 23px;
+  width: 872px;
+  height: 887px;
+  position: absolute;
+}
+.gamebluefridge {
+  top: 205px;
+  right: 23px;
+  width: 872px;
+  height: 887px;
+  position: absolute;
+}
+.gameunstaked {
+  top: 265px;
+  left: 115px;
+  width: 300px;
+  height: 75px;
+  position: absolute;
+}
+.gamestaked {
+  top: 265px;
+  left: 1113px;
+  width: 300px;
+  height: 75px;
+  position: absolute;
+}
+.gamestake {
+  left: 502px;
+  width: 300px;
+  bottom: 150px;
+  height: 71px;
+  position: absolute;
+}
+.gameclaim {
+  right: 113px;
+  width: 300px;
+  bottom: 150px;
+  height: 75px;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .gametitle {
+    top: -4px;
+    left: 215px;
+  }
+  .gameredfridge {
+    top: 265px;
+    left: -2px;
+    width: 794px;
+    height: 722px;
+  }
+  .gamebluefridge {
+    top: 265px;
+    right: 19px;
+    width: 794px;
+    height: 722px;
+  }
+  .gameunstaked {
+    top: 300px;
+    left: 69px;
+  }
+  .gamestaked {
+    top: 300px;
+    left: 865px;
+  }
+  .gamestake {
+    top: 784px;
+    left: 422px;
+  }
+  .gameclaim {
+    top: 784px;
+    right: 91px;
+  }
+}
+@media(max-width: 1200px) {
+  .gametitle {
+    width: 939px;
+    height: 255px;
+  }
+  .gameredfridge {
+    top: 275px;
+    left: -10px;
+    width: 612px;
+    height: 637px;
+  }
+  .gamebluefridge {
+    top: 275px;
+    right: -6px;
+    width: 612px;
+    height: 637px;
+  }
+  .gameunstaked {
+    top: 305px;
+    left: 41px;
+    width: 221px;
+    height: 67px;
+  }
+  .gamestaked {
+    top: 305px;
+    left: 653px;
+    width: 221px;
+    height: 67px;
+  }
+  .gamestake {
+    top: 735px;
+    left: 324px;
+    width: 221px;
+    height: 67px;
+  }
+  .gameclaim {
+    top: 735px;
+    right: 51px;
+    width: 221px;
+    height: 67px;
+  }
+}
+
+
+.mintInfo {
+  /* Adjust the width as needed */
+  width: 50%; /* Example width */
+  /* Centering styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligns text and button inside mintInfo */
+  justify-content: center; /* Centers content vertically inside mintInfo */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #f0f0f0;
+  /* You can remove position absolute if you want it to be part of the flex flow */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* This centers the mintInfo box */
+  z-index: 10;
+}
+
+.mintButton {
+  padding: 10px 20px;
+  font-size: 16px; /* Adjust size as needed */
+  background-color: #007bff; /* Example color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mintButton:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.mintText {
+  font-size: '24px';
+  color: '#333';
+  margin-bottom: '10px';
+}
+
+.mintInputContainer {
+  display: flex;
+  align-items: 'center';
+  justify-content: 'center';
+  margin-bottom: '20px';
+}
+
+.mintInput {
+  font-size: '16px';
+  padding: '10px';
+  width: '100px';
+  margin-right: '10px';
+}
+.mintButtonsContainer {
+  display: flex;
+  justify-content: center; /* Align buttons horizontally in the center */
+  gap: 10px; /* Add space between buttons */
+}
+.mintButton {
+  margin-top: 10px;
+  padding: '10px 20px';
+  font-size: '18px';
+  background-color: '#007bff';
+  color: 'white';
+  border: 'none';
+  border-radius: '5px';
+  cursor: 'pointer';
+  transition: 'background-color 0.3s ease';
+  margin-top: '10px'; /* Or any desired spacing */
+}
+
+.mintButton:hover {
+  background-color: '#0056b3';
+}

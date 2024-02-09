@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../assets/png/background.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 20px 0px 0px 30px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: -40px 0 0 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
