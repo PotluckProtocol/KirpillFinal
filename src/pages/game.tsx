@@ -5,25 +5,27 @@ import Image from 'next/image';
 import FridgeSection from '../components/FridgeSection.component';
 import Link from 'next/link';
 import styles from '../styles/staking.module.css';
+import Head from 'next/head';
 
 const Home = () => {
-  const handleClick = () => {
-    console.log('click');
-  };
-
   return (
     <div>
-      <button className={styles["home-button"]}>
+      <Head>
+        <title>KirpillVsFood - Game</title>
+      </Head>
+      <button className={styles['home-button']}>
         <Link href="/">
           <Image src={home} height={70} priority alt={'home'} />
         </Link>
       </button>
 
       <div className="title">
-        <Image src={title} priority width={800} alt={''} />
+        <Link href="/">
+          <Image src={title} priority width={800} alt={''} />
+        </Link>
       </div>
 
-      <div className={styles["wrapper"]}>
+      <div className={styles['wrapper']}>
         <FridgeSection />
       </div>
     </div>
