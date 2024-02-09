@@ -44,7 +44,7 @@ const Home = () => {
               className="home-play"
             />
             </Link>
-            <Link href="https://solidly.com/swap/?inputCurrency=FTM&outputCurrency=0x92b598deBd3f4c9d99C40c5542E1F4450841fCf2">
+            <Link href="https://solidly.com/swap/">
             <img
               alt="Buy27"
               src="/external/buy27-ge7p-200h.webp"
@@ -87,7 +87,7 @@ const Home = () => {
                 className="home-docs"
               />
             </Link>
-            <Link href="https://solidly.com/swap/?inputCurrency=FTM&outputCurrency=0x92b598deBd3f4c9d99C40c5542E1F4450841fCf2">
+            <Link href="https://solidly.com/swap/">
             <img
               alt="DexScreener215"
               src="/external/dexscreener215-mg4b-200h.webp"
