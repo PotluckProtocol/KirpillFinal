@@ -1,116 +1,200 @@
 
-  .unstaked {
-    position: absolute;
-    top: 50px;
-    left: 85px;
+.unstaked {
+  position: absolute;
+  top: 50px;
+  left: 85px;
+}
+
+.title {
+  position: absolute;
+  font-weight: 600;
+  font-size: 20px;
+  top: 140px;
+  left: 80px;
+}
+
+
+.left-content {
+  position: absolute;
+  width: 220px;
+  height: 315px;
+  overflow-y: auto;
+  top: 180px;
+  left: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 5px;
+}
+
+.scrollable-content {
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; 
+  grid-row-gap: 10px;
+}
+.grid-item {
+  width: 55px; 
+  height: 55px;
+}
+.token-border{ 
+  border: 3px solid lawngreen;
+  margin: -3px;
+}
+
+.rigth-text {
+  position: absolute;
+  top: 190px;
+  left: 330px;
+  width: 210px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.rigth-text-blue {
+  position: absolute;
+  top: 190px;
+  left: 330px;
+  width: 210px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.stake {
+  position: absolute;
+  top: 440px;
+  left: 350px;
+  z-index: 1;
+
+}
+
+.blue-fridge {
+  position: relative;
+}
+
+.staked {
+  position: absolute;
+  top: 50px;
+  left: 105px;
+}
+
+.claim {
+  position: absolute;
+  top: 440px;
+  left: 350px;
+  z-index: 1;
+}
+
+.stake-all {
+  position: absolute;
+  top: 50px;
+  left: 360px;
+}
+
+.withdraw {
+  position: absolute;
+  top: 350px;
+  left: 305px;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  align-items: center;
+  min-width: 0;
+}
+
+@media (max-width: 599px) {
+
+  .blue-fridge {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    width: 400px;
   }
-  
+
+  .staked {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+
   .title {
     position: absolute;
     font-weight: 600;
-    font-size: 20px;
-    top: 140px;
-    left: 80px;
+    font-size: 15px;
+    top: 85px;
+    left: 45px;
   }
-  
-  
+
   .left-content {
     position: absolute;
-    width: 220px;
-    height: 315px;
+    width: 160px;
+    height: 220px;
     overflow-y: auto;
-    top: 180px;
-    left: 60px;
+    top: 110px;
+    left: 35px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: start;
     padding-top: 5px;
   }
-  
+
   .scrollable-content {
     display: grid;
     align-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     grid-row-gap: 10px;
   }
+
   .grid-item {
-    width: 55px; 
+    width: 55px;
     height: 55px;
   }
-  .token-border{ 
-    border: 3px solid lawngreen;
-    margin: -3px;
-  }
-  
-  .rigth-text {
-    position: absolute;
-    top: 190px;
-    left: 330px;
-    width: 210px;
-    height: 210px;
-    overflow: hidden;
-  }
-  
-  .rigth-text-blue {
-    position: absolute;
-    top: 190px;
-    left: 330px;
-    width: 210px;
-    height: 150px;
-    overflow: hidden;
-  }
-  
-  .stake {
-    position: absolute;
-    top: 440px;
-    left: 350px;
-    z-index: 1;
-  
-  }
-  
-  .blue-fridge {
-    position: relative;
-  }
-  
-  .staked {
-    position: absolute;
-    top: 50px;
-    left: 105px;
-  }
-  
-  .claim {
-    position: absolute;
-    top: 440px;
-    left: 350px;
-    z-index: 1;
-  }
-  
+
+
   .stake-all {
     position: absolute;
-    top: 50px;
-    left: 360px;
+    top: 20px;
+    left: 215px;
   }
-  
-  .withdraw {
+
+  .withdraw{
     position: absolute;
-    top: 350px;
-    left: 305px;
+    top: 235px;
+    left: 165px;
+    z-index: 1;
+
   }
-  
-  .embla {
-    overflow: hidden;
+
+  .claim{
+    position: absolute;
+    top: 295px;
+    left: 210px;
+    z-index: 1;
+
   }
-  
-  .embla__container {
-    display: flex;
+
+  .rigth-text-blue {
+    position: absolute;
+    top: 110px;
+    left: 215px;
+    width: 150px;
+    height: 125px;
+    font-size: 14px;
   }
-  
-  .embla__slide {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 100%;
-    align-items: center;
-    min-width: 0;
-  }
+
+}

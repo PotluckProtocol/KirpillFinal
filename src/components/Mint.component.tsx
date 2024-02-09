@@ -2,7 +2,8 @@ import * as React from 'react';
 import styles from './mint.module.scss';
 import TextField from '@mui/material/TextField';
 import { useEffect, useState } from 'react';
-import gif from '../../assets/gif/kirpills.gif';
+import kirpillGif from '../../assets/gif/kirpill.gif';
+import foodGif from '../../assets/gif/food.gif';
 import Image from 'next/image';
 import { Alert, AlertColor, Button, Snackbar } from '@mui/material';
 import {
@@ -242,7 +243,7 @@ const MintComponet = () => {
         <div className={styles['column']}>
           <Image
             style={{ borderRadius: '15px' }}
-            src={gif}
+            src={foodGif}
             height={150}
             priority
             alt={''}
@@ -367,7 +368,7 @@ const MintComponet = () => {
         <div className={styles['column']}>
           <Image
             style={{ borderRadius: '15px' }}
-            src={gif}
+            src={kirpillGif}
             height={150}
             priority
             alt={''}
