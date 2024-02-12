@@ -87,7 +87,7 @@ const Home = () => {
                 className="home-docs"
               />
             </Link>
-            <Link href="https://solidly.com/swap/">
+            <Link href="https://dexscreener.com/fantom/0xf0aada76e36bd2cca8c3f18f229f46bdea839272">
             <img
               alt="DexScreener215"
               src="/external/dexscreener215-mg4b-200h.webp"
