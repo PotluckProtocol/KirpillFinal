@@ -76,7 +76,7 @@ const Home = () => {
               />
             </Link>
             <Link
-              href="https://medium.com/@chillpillfi/chill-gamefi-adventure-part-3-33e2e5d9050a"
+              href="https://kirpill-vs-food.gitbook.io/kirpill-vs-food/"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link2"
@@ -87,7 +87,7 @@ const Home = () => {
                 className="home-docs"
               />
             </Link>
-            <Link href="http://buy.chillpill.fyi/kcal">
+            <Link href="https://dexscreener.com/fantom/0xf0aada76e36bd2cca8c3f18f229f46bdea839272">
             <img
               alt="DexScreener215"
               src="/external/dexscreener215-mg4b-200h.webp"
