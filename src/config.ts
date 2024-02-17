@@ -11,8 +11,21 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/37784886'],
 };
 
+console.log("HEELO")
+console.log(fantom)
+const customRpcUrl = 'https://rpc.ankr.com/fantom/d5a2dd19fea419bff56b6c0bbcc3a02d024c8731ba6f78554a9517e19411b391';
+const customFantomChain = {
+  ...fantom, // Spread the existing Fantom chain configuration
+  rpcUrls: {
+    default: {http: [customRpcUrl]}, // Set your custom RPC URL
+  },
+};
+
+console.log(customFantomChain)
+
+
 export const config = defaultWagmiConfig({
-  chains: [fantom],
+  chains: [customFantomChain],
   ssr: true,
   projectId,
   metadata,
